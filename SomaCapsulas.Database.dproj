@@ -79,7 +79,7 @@
         <DCC_K>false</DCC_K>
         <DCC_Namespace>System;Xml;Data;Datasnap;Web;Soap;$(DCC_Namespace)</DCC_Namespace>
         <SanitizedProjectName>SomaCapsulas_Database</SanitizedProjectName>
-        <DCC_UnitSearchPath>modules\.dcp;modules\.dcu;modules;modules\core-capsule;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
+        <DCC_UnitSearchPath>$(DCC_UnitSearchPath);modules\.dcp;modules\.dcu;modules;modules\core-capsule</DCC_UnitSearchPath>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base_Android)'!=''">
         <DCC_UsePackage>DBXSqliteDriver;tethering;FireDACDBXDriver;RESTBackendComponents;CloudService;DataSnapClient;bindcompdbx;soaprtl;DbxCommonDriver;soapmidas;rtl;DataSnapProviderClient;RESTComponents;bindcompfmx;FireDACIBDriver;dbexpress;IndyCore;FireDACCommon;FireDACCommonDriver;inet;FireDAC;FireDACSqliteDriver;CustomIPTransport;bindcomp;dbxcds;dsnapxml;MobilePermissions;bindengine;IndyIPServer;IndySystem;fmxFireDAC;xmlrtl;DataSnapNativeClient;DbxClientDriver;SampleListViewMultiDetailAppearancePackage;IndyIPClient;DBXInterBaseDriver;emsclientfiredac;DataSnapFireDAC;fmx;dsnap;emsclient;DataSnapCommon;soapserver;IndyIPCommon;FireDACDSDriver;BarcodeScanner;dbrtl;IndyProtocols;$(DCC_UsePackage)</DCC_UsePackage>
